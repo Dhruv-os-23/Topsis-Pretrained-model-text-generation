@@ -21,11 +21,9 @@ Text generation is a fundamental aspect of natural language processing, focusing
 
 ### Metrics Considered
 
-This comparison is centered around crucial metrics such as Rouge scores, generated text length, and latency. Rouge scores provide a measure of the quality of generated text, while the length of the generated text and latency offer insights into the model's output efficiency and response time.
+The comparison centers on key metrics such as Perplexity, BLEU Score, Latency, and ROUGE Score. 
 
-### Methodology - TOPSIS
-
-For an all-encompassing model comparison, we utilize the Technique for Order of Preference by Similarity to Ideal Solution (TOPSIS). This method evaluates models based on their closeness to the ideal solution and their distance from the least favorable solution, ensuring an equitable ranking system.
+To compare models, we employ the Technique for Order of Preference by Similarity to Ideal Solution (TOPSIS). This method involves normalizing the data for each criterion (metric) and calculating the weighted normalized decision matrix. Then, the ideal (best-case) and anti-ideal (worst-case) solutions are identified. Each model is scored based on its Euclidean distance from these ideal and anti-ideal points, allowing for a ranking that reflects both their strengths and weaknesses in a balanced manner.
 
 ### Models Evaluated
 
